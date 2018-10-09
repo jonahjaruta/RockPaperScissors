@@ -1,0 +1,6 @@
+loop actual game code
+loop to reset game
+use if, else, and switch statemens
+use a simple array for computer's choice
+score keeping
+fair game = rock>scissors, paper>rock, scissors>paper
