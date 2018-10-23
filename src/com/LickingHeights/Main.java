@@ -8,17 +8,23 @@ public class Main {
 
        //declare
        Scanner keyboard;
-       String selection;
+       String PlayerChoice;
+       String ComputerChoice;
 
+       
 
 
        //initialize
         keyboard = new Scanner(System.in);
 
         System.out.println("Welcome to Rock, Paper, Scissors!");
-        System.out.println("Go ahead and put your choice in. Rock, paper, or scissors?");
-        selection = keyboard.nextLine();
-        
+        System.out.println("Go ahead and put your choice in. rock, paper, or scissors?");
+        PlayerChoice = keyboard.nextLine();
+
+
+
+
+
 
 
 
