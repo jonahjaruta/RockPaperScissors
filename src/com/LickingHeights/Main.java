@@ -12,7 +12,6 @@ public class Main {
         Integer ComputerNumber;
         String ComputerChoice;
         String[] Options;
-        String PlayAgain = null;
         boolean runAgain = false;
 
 
@@ -65,11 +64,8 @@ public class Main {
 
                 if (score == 3) {
                     win = true;
-                    System.out.println("want to play again? (Y) for yes (N) for no.");
-                    PlayAgain = keyboard.nextLine();
-                }
-                if (PlayAgain == "N") {
-                    runAgain = true;
+                    System.out.println("Congragulations! You've reached three points!");
+                    System.out.println("Try to reach three points faster now!");
                 }
             }
 
