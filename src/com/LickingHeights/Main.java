@@ -9,7 +9,6 @@ public class Main {
         //declare
         Scanner keyboard;
         String PlayerChoice;
-        Integer ComputerNumber;
         String ComputerChoice;
         String[] Options;
         boolean runAgain = false;
